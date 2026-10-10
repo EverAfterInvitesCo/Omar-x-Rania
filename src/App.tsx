@@ -5,7 +5,6 @@ import { Hero } from './components/Hero';
 import { ScratchDate } from './components/ScratchDate';
 import { Countdown } from './components/Countdown';
 import { Venue } from './components/Venue';
-import { DressCode } from './components/DressCode';
 import { Footer } from './components/Footer';
 import { AudioPlayer } from './components/AudioPlayer';
 import { RotateCcw } from 'lucide-react';
@@ -73,10 +72,7 @@ export default function App() {
         {/* 4. Venue Details & Location */}
         <Venue />
 
-        {/* 5. Dress Code & Attire Guidance Section */}
-        <DressCode />
-
-        {/* 6. Footer & Social Links */}
+        {/* 5. Footer & Social Links */}
         <Footer />
       </motion.main>
     </div>
