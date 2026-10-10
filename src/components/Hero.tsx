@@ -66,7 +66,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToNext }) => {
           className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 my-4 text-white"
         >
           <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl font-normal tracking-wide text-[#FAF7F2] drop-shadow-md">
-            Sophia
+            Rania
           </h1>
           <motion.div
             animate={{ scale: [1, 1.15, 1] }}
@@ -76,7 +76,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToNext }) => {
             <Heart className="w-7 h-7 sm:w-10 sm:h-10 fill-[#C8A85D] stroke-none" />
           </motion.div>
           <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl font-normal tracking-wide text-[#FAF7F2] drop-shadow-md">
-            Alexander
+            Omar
           </h1>
         </motion.div>
 

@@ -343,22 +343,22 @@ export const ScratchDate: React.FC = () => {
         <div className="flex flex-row items-center justify-center gap-2 xs:gap-4 sm:gap-8 md:gap-12 w-full pb-4 px-1 overflow-x-auto sm:overflow-visible">
           <SingleScratchCircle
             title="Day"
-            value="24"
+            value="30"
             subtext="Friday"
             index={0}
             onReveal={handleCircleReveal}
           />
           <SingleScratchCircle
             title="Month"
-            value="September"
+            value="October"
             subtext="Autumn"
             index={1}
             onReveal={handleCircleReveal}
           />
           <SingleScratchCircle
             title="Year"
-            value="2027"
-            subtext="Save The Year"
+            value="2026"
+            subtext="4:00 PM"
             index={2}
             onReveal={handleCircleReveal}
           />
@@ -370,7 +370,7 @@ export const ScratchDate: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="mt-10 sm:mt-16 inline-block px-8 sm:px-10 py-3.5 sm:py-4 rounded-full bg-[#C8A85D]/15 border border-[#C8A85D]/40 text-[#8A6218] font-serif text-lg sm:text-2xl font-medium shadow-sm"
           >
-            ✨ Save the date: September 24, 2027 ✨
+            ✨ Save the date: October 30, 2026 • 4:00 PM ✨
           </motion.div>
         )}
       </div>

@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
 
         {/* Copyright notice */}
         <div className="mt-8 text-[11px] font-sans text-[#2C2C2C]/40 tracking-wider">
-          © {new Date().getFullYear()} Sophia & Alexander. All Rights Reserved.
+          © {new Date().getFullYear()} Rania & Omar. All Rights Reserved.
         </div>
       </div>
     </footer>

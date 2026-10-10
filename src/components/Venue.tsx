@@ -3,10 +3,10 @@ import { motion } from 'motion/react';
 import { MapPin, ExternalLink, Clock, Sparkles } from 'lucide-react';
 
 export const Venue: React.FC = () => {
-  const venueName = "Villa Rosa Estate & Gardens";
-  const venueAddress = "1200 St. Helena Highway, St. Helena, Napa Valley, CA 94574";
+  const venueName = "JW Marriott Terrace";
+  const venueAddress = "JW Marriott Hotel Cairo, Ring Road, Mirage City, Heliopolis, Cairo, Egypt";
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-    `${venueName} ${venueAddress}`
+    'JW Marriott Hotel Cairo Mirage City Heliopolis Cairo Egypt'
   )}`;
 
   return (
@@ -93,9 +93,7 @@ export const Venue: React.FC = () => {
               style={{ border: 0, filter: 'grayscale(0.2) contrast(1.05)' }}
               loading="lazy"
               allowFullScreen
-              src={`https://maps.google.com/maps?q=${encodeURIComponent(
-                `${venueName} ${venueAddress}`
-              )}&t=&z=14&ie=UTF8&iwloc=&output=embed`}
+              src="https://maps.google.com/maps?q=JW+Marriott+Hotel+Cairo+Mirage+City+Egypt&t=&z=14&ie=UTF8&iwloc=&output=embed"
             />
             <div className="absolute inset-0 pointer-events-none border border-black/5 rounded-2xl" />
           </div>

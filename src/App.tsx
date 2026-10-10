@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from 'motion/react';
 import { IntroVideo } from './components/IntroVideo';
 import { Hero } from './components/Hero';
 import { ScratchDate } from './components/ScratchDate';
+import { Countdown } from './components/Countdown';
 import { Venue } from './components/Venue';
-import { PolaroidGallery } from './components/PolaroidGallery';
-import { RSVP } from './components/RSVP';
+import { DressCode } from './components/DressCode';
 import { Footer } from './components/Footer';
 import { AudioPlayer } from './components/AudioPlayer';
 import { RotateCcw } from 'lucide-react';
@@ -67,14 +67,14 @@ export default function App() {
         {/* 2. Interactive Scratch Date Section */}
         <ScratchDate />
 
-        {/* 3. Venue Details & Location */}
+        {/* 3. Live Wedding Countdown Section */}
+        <Countdown />
+
+        {/* 4. Venue Details & Location */}
         <Venue />
 
-        {/* 4. Polaroid Memory Gallery */}
-        <PolaroidGallery />
-
-        {/* 5. RSVP Response Form */}
-        <RSVP />
+        {/* 5. Dress Code & Attire Guidance Section */}
+        <DressCode />
 
         {/* 6. Footer & Social Links */}
         <Footer />
