@@ -34,8 +34,37 @@ export const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="py-16 px-6 bg-[#FAF7F2] border-t border-[#C8A85D]/20 text-[#2C2C2C] relative">
+    <footer className="py-20 px-6 bg-[#FAF7F2] border-t border-[#C8A85D]/20 text-[#2C2C2C] relative">
       <div className="max-w-4xl mx-auto text-center flex flex-col items-center justify-center">
+        {/* Warm Closing Note from Rania & Omar */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="mb-14 max-w-2xl w-full p-8 sm:p-10 rounded-3xl bg-white/90 backdrop-blur-md border border-[#C8A85D]/35 shadow-xl relative overflow-hidden"
+        >
+          {/* Decorative Corner Accents */}
+          <div className="absolute top-3 left-3 w-3 h-3 border-t-2 border-l-2 border-[#C8A85D]/50" />
+          <div className="absolute top-3 right-3 w-3 h-3 border-t-2 border-r-2 border-[#C8A85D]/50" />
+          <div className="absolute bottom-3 left-3 w-3 h-3 border-b-2 border-l-2 border-[#C8A85D]/50" />
+          <div className="absolute bottom-3 right-3 w-3 h-3 border-b-2 border-r-2 border-[#C8A85D]/50" />
+
+          <div className="w-12 h-12 rounded-full bg-[#FAF7F2] border border-[#C8A85D]/40 flex items-center justify-center mx-auto mb-4 text-[#C8A85D] shadow-inner">
+            <Heart className="w-5 h-5 fill-[#C8A85D] text-[#C8A85D]" />
+          </div>
+
+          <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl text-[#2C2C2C] italic leading-snug mb-3">
+            “Can't wait to celebrate our special day with you. See you there!”
+          </h3>
+
+          <div className="w-24 h-px bg-gradient-to-r from-transparent via-[#C8A85D] to-transparent mx-auto my-4" />
+
+          <p className="font-script text-3xl sm:text-4xl text-[#C8A85D]">
+            With love, Rania & Omar
+          </p>
+        </motion.div>
+
         {/* Monogram / Brand Icon */}
         <div className="font-script text-4xl text-[#C8A85D] mb-4">
           EverAfter
